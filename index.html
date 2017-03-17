@@ -221,7 +221,17 @@
 										<textarea name="message" placeholder="Message"></textarea>
 									</div>
 									<div class="12u$">
-										[contact-form to='ventas@tvofertasmex.com.mx , webmaster@tvofertasmex.com.mx'][contact-field label='Nombre (s) Completo' type='name' required='1'/][contact-field label='Correo Electrónico' type='email' required='1'/][contact-field label='Lada + Número de teléfono' type='text' required='1'/][contact-field label='Direccción' type='text'/][/contact-form]
+										<form action="mailto:ejemplo@example.com" method="post" enctype="text/plain">
+											Name:<br>
+											<input type="text" name="name"><br>
+											E-mail:<br>
+											<input type="text" name="mail"><br>
+											Comment:<br>
+											<input type="text" name="comment" size="50"><br><br>
+											<a href="mailto:damaris_yaret@hotmail.com; to:ejemplo-dos@hotmail.com"><input type="submit" value="Send"></a>
+											<input type="reset" value="Reset">
+											</form>
+
 										<input type="submit" value="Send Message" />
 									</div>
 								</div>
