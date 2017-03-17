@@ -213,25 +213,17 @@
 
 							<p>If you wish to contact me or give me feedback, you can reach me here</p>
 
-							<form method="post" action="#">
+							<form method="post" action="mailto:ejemplo@example.com" enctype="text/plain">
 								<div class="row">
-									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="6u 12u$(mobile)">
+										Name:<br><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u$ 12u$(mobile)">
+										E-mail:<br><input type="text" name="email" placeholder="Email" /></div>
 									<div class="12u$">
-										<textarea name="message" placeholder="Message"></textarea>
+										Message:<br><textarea name="message" placeholder="Message"></textarea>
 									</div>
 									<div class="12u$">
-										<form action="mailto:ejemplo@example.com" method="post" enctype="text/plain">
-											Name:<br>
-											<input type="text" name="name"><br>
-											E-mail:<br>
-											<input type="text" name="mail"><br>
-											Comment:<br>
-											<input type="text" name="comment" size="50"><br><br>
-											<a href="mailto:damaris_yaret@hotmail.com; to:ejemplo-dos@hotmail.com"><input type="submit" value="Send"></a>
-											<input type="reset" value="Reset">
-											</form>
-
+										
 										<input type="submit" value="Send Message" />
 									</div>
 								</div>
