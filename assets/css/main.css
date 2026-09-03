@@ -1977,10 +1977,10 @@
 	}
 
 		.item header {
-			background: #000000;
+			background: #efefef;
 			margin: 0;
 			padding: 0.3em 0 0.3em 0;
-			font-size: 0.5em;
+			font-size: 0.6em;
 		}
 
 			.item header h3 {
