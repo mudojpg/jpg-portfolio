@@ -2222,6 +2222,7 @@
 				background-color: #81918E;
 				background-image: url("../../images/banner-pablo2.png");
 				background-size:cover;
+			    background-position: center center;
 				background-repeat:no-repeat;
 				height: 622px;
 			}
@@ -2596,5 +2597,11 @@
 				#footer .copyright li:first-child {
 					margin-top: 0;
 				}
-
+				#main > section.one {
+				    height: 100svh;
+				    min-height: 600px;
+				    padding: 4em 1.5em;
+				    background-size: cover;
+				    background-position: center center;
+				}
 	}
